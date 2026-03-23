@@ -61,7 +61,7 @@ h1 {
     color: rgb(252, 251, 249);
 }
 
-article {
+.hero article {
     position: absolute;
     top: 100px;
     width: 97%;
