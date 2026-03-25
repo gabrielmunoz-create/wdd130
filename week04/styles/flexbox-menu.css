@@ -34,7 +34,7 @@ p {
 }
 
 #devtools-btn {
-    background-color: #36454f;
+    background-color: #4a4f36;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -51,5 +51,5 @@ p {
 }
 
 #devtools-btn:active {
-    background-color: #2a3a4a;
+    background-color: #eb08ba;
 }

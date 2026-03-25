@@ -9,14 +9,25 @@
     --border: 1px solid black;
 }
 
-main{
-    max-width: border-box;
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
 aside{
     width: 20rem;
-    text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img{
@@ -34,18 +45,23 @@ aside h2{
 
 nav {
     background-color: darkblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content:  space-evenly;
+    align-items: center;
 }
 
 nav a{
-    height: 100 px;
+    display: block;
+    font-size: 1.2 rem;
+    font-weight: 700;
     color: white;
-    display: inside;
-    padding: 20px;
+    padding: 0.5px;
 }
 
 h1{
     color: darkblue;
+    border-bottom:1px solid black;
 }
 
 main img{
@@ -80,6 +96,5 @@ footer{
     padding: 1rem;
     background-color: rgba(230, 243, 254);
     color: rgba(51, 51, 51);
+    text-align: center;
 }
-
-/*comentario*/
